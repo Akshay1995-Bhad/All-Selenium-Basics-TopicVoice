@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="JBK offline Website" thread-count="5" parallel="classes">
+  <test name="login module">
+  <groups>
+  <run>
+  
+  <exclude name="JBK1"></exclude>
+  </run>
+  </groups>
+    <classes>
+      <class name="com.testngDemo.Demo1"/>
+      <class name="com.testngDemo.Demo2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
